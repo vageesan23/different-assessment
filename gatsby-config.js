@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: "gatsby-source-prismic",
       options: {
-        repositoryName: "diff-vacancy-blog",
+        repositoryName: "different-job-site",
         customTypeModels,
         sharedSliceModels,
         routes,
@@ -47,7 +47,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-prismic-previews",
       options: {
-        repositoryName: "diff-vacancy-blog",
+        repositoryName: "different-job-site",
         routes,
       },
     },
