@@ -39,7 +39,7 @@ const Article = ({ data }) => {
           href="/"
           className="font-semibold tracking-tight text-slate-400"
         >
-          &larr; Back to articles
+          &larr; Back to Jobs
         </PrismicLink>
       </Bounded>
       <article>
@@ -59,7 +59,7 @@ const Article = ({ data }) => {
             <HorizontalDivider />
             <div className="w-full">
               <Heading size="2xl" className="mb-10">
-                Latest articles
+                Available Positions
               </Heading>
               <ul className="grid grid-cols-1 gap-12">
                 {latestArticles.map((article) => (

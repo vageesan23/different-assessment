@@ -1,9 +1,8 @@
-# Prismic + Gatsby Blog Starter
+# :Different Assessment with React, Gatsby and Prismic
 
-This sample blog is an excellent starting point to explore [Gatsby][gatsby] and [Prismic][prismic]. Get it up and running in minutes. Modify and adapt it to your liking; it's all yours!
+This website is created to add all the available job vacancies in :Different. Through the Prismic CMS the developer can easily upload the contnt to make it available in live to the all user. 
 
 - **Demo**: [Open live demo][live-demo]
-- **Learn more about Prismic and Gatsby**: [Prismic Gatsby Documentation][prismic-docs]
 
 &nbsp;
 
@@ -11,12 +10,12 @@ This sample blog is an excellent starting point to explore [Gatsby][gatsby] and 
 
 &nbsp;
 
-## 🚀 Quick Start
+## Installation
 
-To start a new project using this starter, run the following command in your terminal:
+Start a new project, run the following command in your terminal:
 
 ```sh
-npx prismic-cli@latest theme --theme-url https://github.com/prismicio-community/gatsby-starter-prismic-blog --conf sm.json
+npx prismic-cli@latest theme --theme-url https://github.com/vageesan23/different-assessment --conf sm.json
 ```
 
 The command will do the following:
@@ -28,36 +27,8 @@ The command will do the following:
 When you're ready to start your project, run the following command:
 
 ```sh
-npm run develop
-```
+npm start
+``` 
 
-## Documentation
-
-To learn how to work with your new project, [**see this starter's docs**][starter-docs].
-
-To learn more about working with Prismic, [**see the Prismic docs**][prismic-docs].
-
-## License
-
-```
-Copyright 2013-2022 Prismic <contact@prismic.io> (https://prismic.io)
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
-
-[prismic]: https://prismic.io/
-[prismic-docs]: https://prismic.io/docs/technologies/gatsby
 [prismic-sign-up]: https://prismic.io/dashboard/signup
-[starter-docs]: ./docs/README.md
-[gatsby]: https://gatsby.org/
 [live-demo]: https://gatsby-starter-prismic-blog.vercel.app/

@@ -76,9 +76,9 @@ export const Footer = ({ withSignUpForm = true }) => {
         <HorizontalDivider />
         {withSignUpForm && <SignUpForm />}
         <div className="mx-auto w-full max-w-3xl text-center text-xs font-semibold tracking-tight text-slate-500">
-          Proudly published using{" "}
-          <PrismicLink href="https://prismic.io" className="text-slate-700">
-            Prismic
+          Developed by {" "}
+          <PrismicLink href="https://github.com/vageesan23/different-assessment" className="text-slate-700">
+            Vageesan
           </PrismicLink>
         </div>
       </div>
