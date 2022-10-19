@@ -70,16 +70,14 @@ npm start
 Your project will run locally in the following URL:
 
 ```sh
-[http://localhost:8000][local-host]
+http://localhost:8000/
 ``` 
 
 Through this below URL you can query your data:
 
 ```sh
-[http://localhost:8000/___graphql][graph-ql-host]
+http://localhost:8000/___graphql/
 ``` 
 
 [prismic-io]: https://prismic.io/
 [live-demo]: https://gatsby-starter-prismic-blog.vercel.app/
-[local-host]: http://localhost:8000/
-[graph-ql-host]: http://localhost:8000/___graphql
