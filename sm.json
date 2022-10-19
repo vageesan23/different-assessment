@@ -1,6 +1,6 @@
 {
   "_latest": "0.4.2",
-  "apiEndpoint": "https://diff-vacancy-blog.cdn.prismic.io/api/v2",
+  "apiEndpoint": "https://diff-vacancy-blog.prismic.io/api/v2",
   "libraries": ["@/src/slices"],
   "framework": "none"
 }

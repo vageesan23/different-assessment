@@ -29,7 +29,7 @@ const routes = [
 module.exports = {
   siteMetadata: {
     title: `Blog`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `http://localhost:8000/`,
   },
   jsxRuntime: "automatic",
   plugins: [
