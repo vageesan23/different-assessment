@@ -39,7 +39,7 @@ const Article = ({ data }) => {
           href="/"
           className="font-semibold tracking-tight text-slate-400"
         >
-          &larr; Back to Jobs
+          &larr; Back to Home Page
         </PrismicLink>
       </Bounded>
       <article>
@@ -59,7 +59,14 @@ const Article = ({ data }) => {
             <HorizontalDivider />
             <div className="w-full">
               <Heading size="2xl" className="mb-10">
-                Available Positions
+                Available Positions ( Send your CV to
+                <PrismicLink
+                  href="mailto:webmaster@example.com"
+                  className="font-semibold tracking-tight text-slate-400"
+                >
+                  <b> career@sample.com</b>
+                </PrismicLink>{" "}
+                )
               </Heading>
               <ul className="grid grid-cols-1 gap-12">
                 {latestArticles.map((article) => (

@@ -50,7 +50,7 @@ const Article = ({ article }) => {
           )}
         </div>
       </PrismicLink>
-      <div className="grid grid-cols-1 gap-3 md:col-span-2">
+      <div className="grid grid-cols-1 gap-3 md:col-span-2 mt-6">
         <Heading as="h2">
           <PrismicLink href={article.url}>
             {article.data.title.text}
@@ -75,7 +75,7 @@ const Page = ({ data }) => {
   return (
     <Layout withHeaderDivider={false}>
       <Bounded size="widest">
-        <ul className="grid grid-cols-1 gap-16">
+        <ul className="grid grid-cols-2 gap-16">
           {articles.map((article) => (
             <Article key={article.id} article={article} />
           ))}
