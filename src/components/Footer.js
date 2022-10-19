@@ -43,7 +43,7 @@ const SignUpForm = () => {
               <input
                 name="email"
                 type="email"
-                placeholder="jane.doe@example.com"
+                placeholder="vageesan@example.com"
                 required={true}
                 className="w-full rounded-none border-b border-slate-200 py-3 pl-3 pr-10 text-slate-800 placeholder-slate-400"
               />
@@ -76,9 +76,9 @@ export const Footer = ({ withSignUpForm = true }) => {
         <HorizontalDivider />
         {withSignUpForm && <SignUpForm />}
         <div className="mx-auto w-full max-w-3xl text-center text-xs font-semibold tracking-tight text-slate-500">
-          Developed by {" "}
-          <PrismicLink href="https://github.com/vageesan23/different-assessment" className="text-slate-700">
-            Vageesan
+        Copyrights ©2022 All reserved {" "}
+          <PrismicLink href="https://different.lk/" className="text-slate-700">
+            :Different
           </PrismicLink>
         </div>
       </div>
