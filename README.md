@@ -47,11 +47,22 @@ In your gatsby-config.js file, change your repositoryName as your repository nam
 {
       resolve: "gatsby-source-prismic",
       options: {
-        repositoryName: "diff-vacancy-blog",
+        repositoryName: "your-repository-name",
         customTypeModels,
         sharedSliceModels,
         routes,
       },
+}
+```
+
+In your sm.json file, change your apiEndpoint as your repository endpoint in Prismic:
+
+```sh
+{
+  "_latest": "0.4.2",
+  "apiEndpoint": "https://your-repository-name.prismic.io/api/v2",
+  "libraries": ["@/src/slices"],
+  "framework": "none"
 }
 ```
 
