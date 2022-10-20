@@ -91,4 +91,4 @@ http://localhost:8000/___graphql/
 ``` 
 
 [prismic-io]: https://prismic.io/
-[live-demo]: https://gatsby-starter-prismic-blog.vercel.app/
+[live-demo]: https://diff-vacancy-blog-oqta370jn-vageesan23.vercel.app
