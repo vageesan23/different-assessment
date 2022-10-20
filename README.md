@@ -91,8 +91,6 @@ In your sm.json file, change your apiEndpoint as your repository endpoint in Pri
   "framework": "none"
 }
 ```
-&nbsp;
-
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/endpointapi.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
 
 &nbsp;
@@ -113,8 +111,6 @@ The project will run locally in the following URL:
 ```sh
 http://localhost:8000/
 ``` 
-&nbsp;
-
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/local.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
 
 &nbsp;
@@ -124,11 +120,7 @@ Through this below URL you can query your data:
 ```sh
 http://localhost:8000/___graphql/
 ``` 
-&nbsp;
-
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/graphql.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
-
-&nbsp;
 
 [prismic-io]: https://prismic.io/
 [live-demo]: https://diff-vacancy-blog-oqta370jn-vageesan23.vercel.app
