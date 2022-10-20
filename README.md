@@ -10,6 +10,12 @@ This website is created to add all the available job vacancies in :Different. Th
 
 &nbsp;
 
+&nbsp;
+
+<img src="https://github.com/vageesan23/different-assessment/blob/main/images/careers.png?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
+
+&nbsp;
+
 ## Installation
 
 Run the following commands in your terminal to install Prismic and Gatsby in your local machine:
@@ -30,10 +36,37 @@ The following instructions will help to create and set up the repository and con
 1. Go to [Prismic.io][prismic-io].
 2. Create a new profile.
 3. Create a new Prismic repository with Gatsby framework. 
+
+&nbsp;
+
+<img src="https://github.com/vageesan23/different-assessment/blob/main/images/repocreate.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
+
+&nbsp;
+
 4. Create a new custom type in your Prismic repository.
+
+&nbsp;
+
+<img src="https://github.com/vageesan23/different-assessment/blob/main/images/customtypes.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
+
+&nbsp;
+
 5. Create contents provided in the custom types section in this project folder.
 6. Create some content pages to the particular custom types.
+
+&nbsp;
+
+<img src="https://github.com/vageesan23/different-assessment/blob/main/images/contentpages.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
+
+&nbsp;
+
 7. In the Prismic previews section create a new preview as `/api/preview`.
+
+&nbsp;
+
+<img src="https://github.com/vageesan23/different-assessment/blob/main/images/previews.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
+
+&nbsp;
 
 change your project directory to your project in terminal:
 
@@ -66,6 +99,12 @@ In your sm.json file, change your apiEndpoint as your repository endpoint in Pri
 }
 ```
 
+&nbsp;
+
+<img src="https://github.com/vageesan23/different-assessment/blob/main/images/endpointapi.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
+
+&nbsp;
+
 To install the starter default theme of Prismic, run the following command:
 
 ```sh
@@ -89,6 +128,12 @@ Through this below URL you can query your data:
 ```sh
 http://localhost:8000/___graphql/
 ``` 
+
+&nbsp;
+
+<img src="https://github.com/vageesan23/different-assessment/blob/main/images/graphql.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
+
+&nbsp;
 
 [prismic-io]: https://prismic.io/
 [live-demo]: https://diff-vacancy-blog-oqta370jn-vageesan23.vercel.app
