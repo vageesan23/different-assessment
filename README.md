@@ -6,7 +6,7 @@ This website is created to add all the available job vacancies in :Different. Th
 
 &nbsp;
 
-<img src="https://user-images.githubusercontent.com/8601064/163122284-5b80a81e-a4fd-482e-9bd5-99b22f61175f.png" alt="Screenshots of the site seen on deskop and mobile browsers" />
+<img src="https://github.com/vageesan23/different-assessment/blob/main/images/main.png?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
 
 &nbsp;
 
