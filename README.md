@@ -1,13 +1,12 @@
 # :Different Assessment with React, Gatsby and Prismic
 
-This website is created to add all the available job vacancies in :Different. Through the Prismic CMS the developer can easily upload the contnt to make it available in live to the all user. 
+This website is created to add all the job vacancies available in :Different. Through the Prismic CMS the developer can easily upload the content to make it available in live to the all users. 
 
 - **Demo**: [Open live demo][live-demo]
 &nbsp;
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/main.png?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
 
-&nbsp;
 &nbsp;
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/careers.png?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
@@ -38,22 +37,16 @@ The following instructions will help to create and set up the repository and con
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/repocreate.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
 
-&nbsp;
-
 4. Create a new custom type in your Prismic repository.
 &nbsp;
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/customtypes.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
 
-&nbsp;
-
-5. Create contents provided in the custom types section in this project folder.
-6. Create some content pages to the particular custom types.
+5. Create contents provided in the custom types section in the project folder `project-folder\customtypes`.
+6. Create some content pages to the particular custom types and publish it to the live.
 &nbsp;
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/contentpages.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
-
-&nbsp;
 
 7. In the Prismic previews section create a new preview as `/api/preview`.
 &nbsp;
@@ -61,7 +54,7 @@ The following instructions will help to create and set up the repository and con
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/previews.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
 
 &nbsp;
-change your project directory to your project in terminal:
+Change your project directory to your project in terminal:
 
 ```sh
 cd your-project-name
@@ -91,7 +84,6 @@ In your sm.json file, change your apiEndpoint as your repository endpoint in Pri
   "framework": "none"
 }
 ```
-&nbsp;
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/endpointapi.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
 
@@ -102,19 +94,17 @@ To install the starter default theme of Prismic, run the following command:
 npm install gatsby-source-prismic gatsby-plugin-prismic-previews gatsby-plugin-image gatsby-plugin-postcss
 ``` 
 
-When you're ready to start your project, run the following command:
+To start the project, run the following command:
 
 ```sh
 npm start
 ``` 
 
-Your project will run locally in the following URL:
+The project will run locally in the following URL:
 
 ```sh
 http://localhost:8000/
 ``` 
-&nbsp;
-
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/local.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
 
 &nbsp;
@@ -124,11 +114,7 @@ Through this below URL you can query your data:
 ```sh
 http://localhost:8000/___graphql/
 ``` 
-&nbsp;
-
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/graphql.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
-
-&nbsp;
 
 [prismic-io]: https://prismic.io/
 [live-demo]: https://diff-vacancy-blog-oqta370jn-vageesan23.vercel.app
