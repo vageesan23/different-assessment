@@ -19,7 +19,7 @@ npm install -g prismic-cli
 npm install -g gatsby-cli
 ```
 
-Start a new project, run the following command in your terminal:
+To start a new project, run the following command in your terminal:
 
 ```sh
 npx prismic-cli@latest theme --theme-url https://github.com/vageesan23/different-assessment --conf sm.json
