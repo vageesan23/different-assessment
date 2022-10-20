@@ -36,30 +36,30 @@ The following instructions will help to create and set up the repository and con
 &nbsp;
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/repocreate.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
-
+&nbsp;
 4. Create a new custom type in your Prismic repository.
 &nbsp;
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/customtypes.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
-
+&nbsp;
 5. Create contents provided in the custom types section in the project folder `project-folder\customtypes`.
 6. Create some content pages to the particular custom types and publish it to the live.
 &nbsp;
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/contentpages.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
-
+&nbsp;
 7. In the Prismic previews section create a new preview as `/api/preview`.
 &nbsp;
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/previews.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
-
+&nbsp;
 &nbsp;
 Change your project directory to your project in terminal:
 
 ```sh
 cd your-project-name
 ```
-
+&nbsp;
 In your gatsby-config.js file, change your repositoryName as your repository name in Prismic:
 
 ```sh
@@ -73,7 +73,7 @@ In your gatsby-config.js file, change your repositoryName as your repository nam
       },
 }
 ```
-
+&nbsp;
 In your sm.json file, change your apiEndpoint as your repository endpoint in Prismic:
 
 ```sh
@@ -87,6 +87,7 @@ In your sm.json file, change your apiEndpoint as your repository endpoint in Pri
 
 <img src="https://github.com/vageesan23/different-assessment/blob/main/images/endpointapi.jpg?raw=true" alt="Screenshots of the site seen on deskop and mobile browsers" />
 
+&nbsp;
 &nbsp;
 To install the starter default theme of Prismic, run the following command:
 
